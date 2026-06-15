@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amazon Sign Up</title>
+  <link rel="stylesheet" href="auth.css" />
+</head>
+<body>
+  <div class="auth-container">
+    
+    <div class="auth-box">
+      <h2>Create account</h2>
+      <form id="signupForm">
+        <label>Your name</label>
+        <input type="text" required />
+        <label>Mobile number or email</label>
+        <input type="text" required />
+        <label>Password</label>
+        <input type="password" required />
+        <label>Re-enter password</label>
+        <input type="password" required />
+        <button type="submit">Continue</button>
+      </form>
+      <p class="terms">By creating an account, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
+      <hr />
+      <p>Already have an account?</p>
+      <a href="login.html" class="create-account-btn">Sign in</a>
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
+</body>
+</html>

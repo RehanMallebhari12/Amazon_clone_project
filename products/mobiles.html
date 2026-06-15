@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobiles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href= "product.css">
+    <script src="../script.js"></script>
+    </head>
+
+<body>
+  <!--mobile navbar-->
+  <header>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
+
+        <div class="nav-address border">
+            <p class="add-first"> Deliver to </p>
+            <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="add-second"> India </p>
+            </div>
+        </div>
+
+        <div class="nav-search">
+            <select>
+                <option> Mobiles </option>
+            </select class="search-select">
+            <input placeholder="Search Amazon" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="nav-singing border">
+            <p> <span> Hello, sign in </span></p>
+            <p class="nav-second"> Account & Lists </p>
+        </div>
+        <div class="nav-return border">
+            <p> <span> Returns </span></p>
+            <p class="nav-second"> & Orders </p>
+        </div>
+
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-all" id="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-ops">
+            <p> Today's Deals </p>
+            <p> Customer Service </p>
+            <p> Registry </p>
+            <p> Gift Cards </p>
+            <p> Sell </p>
+        </div>
+        <div class="panel-deals">
+            Shop deals in Electronics
+        </div>
+    </div>
+</header>
+
+  <!-- Inside <body>, after header -->
+    <!-- NEW: Sidebar Overlay and Sidebar Menu -->
+    <div class="sidebar-overlay"></div>
+    <aside class="sidebar" id="sidebar">
+        <div class="menu-header">
+            <div class="profile-img">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="menu-mgs">Hello, sign in</div>
+            <div class="close-menu-btn">
+                <i class="fa-solid fa-xmark" id="sidebar-overlay"></i>
+            </div>
+        </div>
+        <div class="category">
+            <h3>Shop by Category</h3>
+            <ol>
+                <li><a href="mobiles.html" class="Category-name">Mobiles</a></li>
+                <li><a href="Electronics.html" class="Category-name"> Electronics </a></li>
+                <li><a href="tv.html" class="Category-name"> Tv, Audio & Cameras </a></li>
+                <li><a href="mfashion.html" class="Category-name"> Men's Fashion </a></li>
+                <li><a href="wfashion.html" class="Category-name"> Women's Fashion </a></li>
+                <li><a href="computer.html" class="Category-name"> Computer & Laptop </a></li>
+                <li><a href="grocery.html" class="Category-name"> Grocery </a></li>
+                <li><a href="shoes.html" class="Category-name"> Shoes </a></li>
+                <li><a href="baggs.html" class="Category-name"> Bag & Luggage </a></li>
+                <li><a href="watches.html" class="Category-name"> Watches </a></li>
+                
+
+                </ol>
+        </div>
+        <div>
+          <h3> Help & settings</h3>  
+          <ol>
+          <li><a href="#" class="help-name"> Your Account</a></li>
+          <li><a href="#" class="help-name"> Customer Service </a></li>
+          <li><a href="#" class="help-name"> sign in </a></li>
+      </ol>
+      </div>
+
+      </aside>
+
+  <!--moblie product-->
+    <h2 class="section-heading ">Top Deals on Latest Smartphones – Best Picks for You 📱</h2>
+    <section class="product-container">
+    <!-- Product Card 1 -->
+    <div class="product-card">
+       <img src= "../images/mobile_1.jpg" alt="Samsung Galaxy M35">
+      <p class="product-title">Samsung Galaxy M35 5G (Thunder Grey,8GB RAM,256GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Cooling Chamber | 6000mAh Battery | 120Hz Super AMOLED Display| Without Charger</p>
+      <div class="rating">4.1★★★★☆ <span>(8,225ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-15%</span>
+        <span class="price">₹23,499</span>
+        <s class="mrp">₹27,499</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 2 -->
+    <div class="product-card">
+        <img src="../images/mobile_2.jpg" alt="Realme 14 Pro">
+        <p class="product-title">realme 14 Pro+ 5G (Suede Grey, 8GB RAM, 256GB Storage) | 6.83"                                     Curved AMOLED Display | 50MP Sony IMX896 OIS + 50MP Periscope Rear Cam | 6000mAh Battery | Snapdragon 7s Gen 3 Processor | 80W SUPERVOOC</p>
+        <div class="rating">3.7★★★★☆ <span>(7ratings)</span></div>
+        <div class="price-section">
+          <span class="discount">-11%</span>
+          <span class="price">₹31,999</span>
+          <s class="mrp">₹35,999</s>
+        </div>
+        <div class="prime-badge">✔ prime</div>
+        <button class="add-to-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+      </div>
+
+      <!-- Add 2 more cards for 4 in a row -->
+    <div class="product-card">
+        <img src="../images/mobile_3.jpg" alt="Redmi Note 14">
+        <p class="product-title">Redmi Note 14 5G (Mystique White, 8GB RAM 256GB Storage) | Global Debut MTK Dimensity 7025 Ultra | 2100 nits Segment Brightest 120Hz AMOLED | 50MP Sony LYT 600 OIS+EIS Triple Camera</p>
+        <div class="rating">3.8★★★★☆ <span>(449 ratings)</span></div>
+        <div class="price-section">
+          <span class="discount">-16%</span>
+          <span class="price">₹20,999</span>
+          <s class="mrp">₹24,999</s>
+        </div>
+        <div class="prime-badge">✔ prime</div>
+        <button class="add-to-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+      </div>
+  
+      <div class="product-card">
+        <img src="../images/mobile_4.jpg" alt="Vivo Y29">
+        <p class="product-title">Vivo Y29 5G (Diamond Black, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers</p>
+        <div class="rating">4.0★★★★☆ <span>(68 ratings)</span></div>
+        <div class="price-section">
+          <span class="discount">-23%</span>
+          <span class="price">₹16,999</span>
+          <s class="mrp">₹21,999</s>
+        </div>
+        <div class="prime-badge">✔ prime</div>
+        <button class="add-to-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+      </div>
+
+      
+    <!-- Product Card 5 -->
+    <div class="product-card">
+      <img src="../images/mobile_5.jpg" alt="Motorola Edge 50 Fusion">
+      <p class="product-title">Motorola Edge 50 Fusion 5G (Hot Pink, 12GB RAM, 256GB Storage) | Dual Camera Setup: 50MP Main Camera, 32MP Front Camera, 50 MP Ultra Pixel OIS Camera with Sony - LYTIA 700C Senor, IP68 Underwater Protection with Smart Water Touch, 144 Hz 3D Curved Display with Gorilla Glass 5 Protection, 68 W TurboPower Charging with 5000 mAh Battery</p>
+      <div class="rating">4.0★★★★☆ <span>(263 ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-11%</span>
+        <span class="price">₹24,860</span>
+        <s class="mrp">₹27,999</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 6 -->
+    <div class="product-card">
+      <img src="../images/mobile_6.jpg" alt="OnePlus Nord 4 ">
+      <p class="product-title">OnePlus Nord 4 5G (Oasis Green, 8GB RAM, 256GB Storage) | Fast Charging Support, Dual SIM, Built-In GPS Latest of the 7 series. Snapdragon 7+ Gen 3. LPDDR5X Memory: Power optimised for heavy gaming, seamless multitasking and on-device A</p>
+      <div class="rating">4.2★★★★☆ <span>(3,103 ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-11%</span>
+        <span class="price">₹29,498</span>
+        <s class="mrp">₹32,999</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 7 -->
+    <div class="product-card">
+      <img src="../images/mobile_7.jpg" alt="Vivo V50 ">
+      <p class="product-title">Vivo V50 5G (Starry Night, 12GB RAM, 512GB Storage) with No Cost EMI/Additional Exchange Offers | Bluetooth Enabled, Basic Phone, Dual SIM, Camera, Built-In GPS | Screen & display: 17.19 cm (6.77" inch) Quad Curved AMOLED capacitive multi-touch Display | P3 wide colour gamut supported | 387 ppi high pixel density| 4500 nits local peak brightness</p>
+      <div class="rating">4.2★★★★☆ <span>(159 ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-16%</span>
+        <span class="price">₹40,999</span>
+        <s class="mrp">₹48,999</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+     <!-- Product Card 8 -->
+     <div class="product-card">
+      <img src="../images/mobile_8.jpg" alt="POCO M6 Pro  ">
+      <p class="product-title">POCO M6 Pro 5G (Power Black, 6GB RAM, 128GB Storage) | Snapdragon 4 Gen 2 | 6.79" Large Screen with 90Hz Refresh Rate | 50 MP Dual AI Camera</p>
+      <div class="rating">3.9★★★★☆ <span>(6,225 ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-24%</span>
+        <span class="price">₹12,999</span>
+        <s class="mrp">₹16,999</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+  </section>
+    
+     <!-- mobile accessories -->
+     <h2 class="section-heading">Must-Have Mobile Accessories – Boost Your Smartphone Experience 🔌🔋</h2>
+     <section class="accessories-container">
+     <div class="product-card">
+      <img src="../images/mobileaccess_1.jpg" alt=" Ambrane power bank ">
+      <p class="product-title">Ambrane Magsafe Wireless 10000Mah Fast Charging USB Type-C Input Power Bank, Strong Magnet, 22.5W Output For iPhone 12 & Above, Android & Other Qi Enabled Devices + Magnetic Ring (Aerosync Snap, Blue)</p>
+      <div class="rating">3.8★★★★☆ <span>(1,812 ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-57%</span>
+        <span class="price">₹1,299</span>
+        <s class="mrp">₹2,999</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="../images/mobileaccess_2.jpg" alt=" Xiaomi Power Bank ">
+        <p class="product-title">Xiaomi Power Bank 4i 20000mAh 33W Super Fast Charging PD | Power Delivery | QC 3.0|Type C Input & Output |Triple Output Ports|Classic Black|Supports Android,Apple, Tablets, Earbuds, Watches etc (MI)</p>
+        <div class="rating">4.2★★★★☆ <span>(98,005 ratings)</span></div>
+        <div class="price-section">
+          <span class="discount">-50%</span>
+          <span class="price">₹1,999</span>
+          <s class="mrp">₹3,999</s>
+        </div>
+        <div class="prime-badge">✔ prime</div>
+        <button class="add-to-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+        </div>
+
+        
+      <div class="product-card">
+        <img src="../images/mobileaccess_3.jpg" alt=" mobile cover ">
+        <p class="product-title">Vihibii for Samsung Galaxy S25 Magnetic Back Cover with Stand, [Compatible with MagSafe], Drop Protection Rugged Shockproof Back & Translucent Matte Slim Phone Case for S25 6.2" 2025, Dark Blue</p>
+        <div class="rating">4.2★★★★☆ <span>(63 ratings)</span></div>
+        <div class="price-section">
+          <span class="discount">-38%</span>
+          <span class="price">₹1,799</span>
+          <s class="mrp">₹2,899</s>
+        </div>
+        <div class="prime-badge">✔ prime</div>
+        <button class="add-to-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="../images/mobileaccess_4.jpg" alt=" mobile charger ">
+          <p class="product-title">Novobit 65W Fast Charger with USB to C-Type Cable Combo | Compatible with OnePlus, Realme, Oppo, Redmi, Nothing, Samsung, Pixel & Other Phones | C type Fast Charger Supports Dash,Warp, Vooc, SuperVooc</p>
+          <div class="rating">4.0★★★★☆ <span>(10,284 ratings)</span></div>
+          <div class="price-section">
+            <span class="discount">-60%</span>
+            <span class="price">₹799</span>
+            <s class="mrp">₹1,999</s>
+          </div>
+          <div class="prime-badge">✔ prime</div>
+          <button class="add-to-cart">Add to Cart</button>
+          <button class="buy-now">Buy Now</button>
+          </div>
+    </section>
+    
+  
+
+                  
+    
+</body>
+
+</html>

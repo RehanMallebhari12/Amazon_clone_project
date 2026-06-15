@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grocery </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href= "product.css">
+    <script src="../script.js"></script>
+</head>
+
+<body>
+    <!--grocery-->
+   <header>
+     <div class="navbar">
+         <div class="nav-logo border">
+             <div class="logo"></div>
+         </div>
+ 
+         <div class="nav-address border">
+             <p class="add-first"> Deliver to </p>
+             <div class="add-icon">
+                 <i class="fa-solid fa-location-dot"></i>
+                 <p class="add-second"> India </p>
+             </div>
+         </div>
+
+         <div class="nav-search">
+            <select>
+                <option> Grocery </option>
+            </select class="search-select">
+            <input placeholder="Search Amazon" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="nav-singing border">
+            <p> <span> Hello, sign in </span></p>
+            <p class="nav-second"> Account & Lists </p>
+        </div>
+        <div class="nav-return border">
+            <p> <span> Returns </span></p>
+            <p class="nav-second"> & Orders </p>
+        </div>
+
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-all" id="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-ops">
+            <p> Today's Deals </p>
+            <p> Customer Service </p>
+            <p> Registry </p>
+            <p> Gift Cards </p>
+            <p> Sell </p>
+        </div>
+        <div class="panel-deals">
+            Shop deals in Electronics
+        </div>
+    </div>
+</header>
+
+<!-- Inside <body>, after header -->
+    <!-- NEW: Sidebar Overlay and Sidebar Menu -->
+    <div class="sidebar-overlay"></div>
+    <aside class="sidebar" id="sidebar">
+        <div class="menu-header">
+            <div class="profile-img">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="menu-mgs">Hello, sign in</div>
+            <div class="close-menu-btn">
+                <i class="fa-solid fa-xmark" id="sidebar-overlay"></i>
+            </div>
+        </div>
+        <div class="category">
+            <h3>Shop by Category</h3>
+            <ol>
+                <li><a href="mobiles.html" class="Category-name">Mobiles</a></li>
+                <li><a href="Electronics.html" class="Category-name"> Electronics </a></li>
+                <li><a href="tv.html" class="Category-name"> Tv, Audio & Cameras </a></li>
+                <li><a href="mfashion.html" class="Category-name"> Men's Fashion </a></li>
+                <li><a href="wfashion.html" class="Category-name"> Women's Fashion </a></li>
+                <li><a href="computer.html" class="Category-name">  Computer & Laptop </a></li>
+                <li><a href="grocery.html" class="Category-name"> Grocery </a></li>
+                <li><a href="shoes.html" class="Category-name"> Shoes </a></li>
+                <li><a href="baggs.html" class="Category-name"> Bag & Luggage </a></li>
+                <li><a href="watches.html" class="Category-name"> Watches </a></li>
+               
+                </ol>
+        </div>
+        <div>
+            <h3> Help & settings</h3>  
+            <ol>
+            <li><a href="#" class="help-name"> Your Account</a></li>
+            <li><a href="#" class="help-name"> Customer Service </a></li>
+            <li><a href="#" class="help-name"> sign in </a></li>
+        </ol>
+        </div>
+        </aside>
+
+
+        <!--grocery product-->
+        <h2 class="section-heading">🛒 Shop Fresh Groceries – Fruits, Veggies, Grains & More!</h2>
+     <section class="product-container">
+     <!-- Product Card 1 -->
+     <div class="product-card">
+         <img src= "../images/grocery_1.jpg" alt="Grocery">
+       <p class="product-title"> Tata Salt 1 Kg, Free Flowing and Iodised Namak, Vacuum Evaporated, Salt in Fresh</p> 
+       <div class="rating">4.8 ★★★★★ <span>(69,123ratings)</span></div>
+       <div class="price-section">
+         <span class="discount">-7%</span>
+         <span class="price">₹26</span>
+         <s class="mrp">₹28</s>
+       </div>
+       <div class="prime-badge">✔ prime</div>
+       <button class="add-to-cart">Add to Cart</button>
+       <button class="buy-now">Buy Now</button>
+     </div>
+
+     <!-- Product Card 2 -->
+     <div class="product-card">
+        <img src= "../images/grocery_2.jpg" alt="Grocery">
+      <p class="product-title">Fortune Sunlite Refined Sunflower Oil, 870/910 gm(weight may vary) Pouch</p> 
+      <div class="rating">4.3★★★★☆ <span>(38,789ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-15%</span>
+        <span class="price">₹162</span>
+        <s class="mrp">₹190</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+     <!-- Product Card 3 -->
+     <div class="product-card">
+        <img src= "../images/grocery_3.jpg" alt="Grocery">
+      <p class="product-title">Tata Sampann Unpolished Green Moong Dal (Whole), 500g</p> 
+      <div class="rating">4.0★★★★☆ <span>(13,856ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-23%</span>
+        <span class="price">₹72</span>
+        <s class="mrp">₹93</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 4 -->
+    <div class="product-card">
+        <img src= "../images/grocery_4.jpg" alt="Grocery">
+      <p class="product-title">Tata Sampann Unpolished Moong Dal (Split), 1Kg</p> 
+      <div class="rating">4.0★★★★☆ <span>(17,490ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-19%</span>
+        <span class="price">₹166</span>
+        <s class="mrp">₹205</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    
+    <!-- Product Card 5 -->
+    <div class="product-card">
+        <img src= "../images/grocery_5.jpg" alt="Grocery">
+      <p class="product-title">India Gate Basmati Rice Everyday 5 kg</p> 
+      <div class="rating">3.8★★★★☆ <span>(2,518ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-27%</span>
+        <span class="price">₹349</span>
+        <s class="mrp">₹480</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+     <!-- Product Card 6 -->
+     <div class="product-card">
+        <img src= "../images/grocery_6.jpg" alt="Grocery">
+      <p class="product-title">Tata Sampann Garam Masala Powder with Natural Oils, 100g, Crafted by Chef Sanjeev Kapoor, With Chef’s Exclusive Tip, Rich Aroma & Flavour</p> 
+      <div class="rating">4.2★★★★☆ <span>(12,448ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-25%</span>
+        <span class="price">₹79</span>
+        <s class="mrp">₹105</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 7 -->
+    <div class="product-card">
+        <img src= "../images/grocery_7.jpg" alt="Grocery">
+      <p class="product-title">Fortune Chakki Fresh Atta, 5 kg, 100% Atta 0% Maida</p> 
+      <div class="rating">4.3★★★★☆ <span>(15,970ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-13%</span>
+        <span class="price">₹240</span>
+        <s class="mrp">₹277</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+     <!-- Product Card 8 -->
+     <div class="product-card">
+        <img src= "../images/grocery_8.jpg" alt="Grocery">
+      <p class="product-title">Aashirvaad Shudh Chakki Atta, 5kg Pack, 100% Whole Wheat Flour, 0% Maida</p> 
+      <div class="rating">4.7 ★★★★★ <span>(15,635ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-15%</span>
+        <span class="price">₹319</span>
+        <s class="mrp">₹374</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 9 -->
+    <div class="product-card">
+        <img src= "../images/grocery_9.jpg" alt="Grocery">
+      <p class="product-title">Amul Moti Homogenized Liquid Toned Milk, 450 Ml Pouch</p> 
+      <div class="rating">4.7 ★★★★★ <span>(2,788ratings)</span></div>
+      <div class="price-section">
+       <span class="price">₹33</span>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 10 -->
+     <div class="product-card">
+        <img src= "../images/grocery_10.jpg" alt="Grocery">
+      <p class="product-title">Aashirvaad Shudh Chakki Atta, 5kg Pack, 100% Whole Wheat Flour, 0% Maida</p> 
+      <div class="rating">3.8★★★★☆ <span>(15ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-15%</span>
+        <span class="price">₹664</span>
+        <s class="mrp">₹760</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+     <!-- Product Card 11 -->
+     <div class="product-card">
+        <img src= "../images/grocery_11.jpg" alt="Grocery">
+      <p class="product-title">Tata Tea Agni 500g, Strong chai With 10% Extra Strong Leaves, Black Tea</p> 
+      <div class="rating">4.1★★★★☆ <span>(7,393ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-8%</span>
+        <span class="price">₹110</span>
+        <s class="mrp">₹120</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+     <!-- Product Card 12 -->
+     <div class="product-card">
+        <img src= "../images/grocery_12.jpg" alt="Grocery">
+      <p class="product-title">Sunfeast YiPPee! Magic Masala, Instant Noodles (Pack of 4), 240g​</p> 
+      <div class="rating">4.3★★★★☆ <span>(1,543ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-4%</span>
+        <span class="price">₹54</span>
+        <s class="mrp">₹56</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 13 -->
+    <div class="product-card">
+        <img src= "../images/grocery_13.jpg" alt="Grocery">
+      <p class="product-title">MARKSTOR Fresh, Ajwa Al-Saudi - Finest Original Ajwa Dates (Khajoor/Khajur) Of Madina, Saudi Arabia - 1 Kg [500G X 2] Dates</p> 
+      <div class="rating">4.0★★★★☆ <span>(983ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-34%</span>
+        <span class="price">₹2,655</span>
+        <s class="mrp">₹4,000</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 14 -->
+    <div class="product-card">
+        <img src= "../images/grocery_14.jpg" alt="Grocery">
+      <p class="product-title">Amazon Brand - Vedaka Whole Cashews | 500 Gram | Kaju Nuts Grade W320 | Plant Based Protein | Gluten-Free | Nutty Flavor | Healthy Snack | Rich Delicious Taste</p> 
+      <div class="rating">4.1★★★★☆ <span>(21,035ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-25%</span>
+        <span class="price">₹599</span>
+        <s class="mrp">₹800</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 15 -->
+    <div class="product-card">
+        <img src= "../images/grocery_15.jpg" alt="Grocery">
+      <p class="product-title">KRISHIVAL NUTS 100% Natural Premium California Almonds 1kg (250 g Pack of 4) | Premium Roasted Badam | High in Fiber & Boost Immunity | Real Nuts | Gluten Free (1 KG, Unflavoured)</p> 
+      <div class="rating">4.1★★★★☆ <span>(189ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-8%</span>
+        <span class="price">₹1,250</span>
+        <s class="mrp">₹1,360</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 16 -->
+    <div class="product-card">
+        <img src= "../images/grocery_16.jpg" alt="Grocery">
+      <p class="product-title">Wonderland Foods 1Kg Premium Daily Needs Combo Pack of NP Almonds, Cashews W320, Long Green Raisin, Pistachios & Walnut Halves Kernels Combo Pack Jar (200g X 5)</p> 
+      <div class="rating">4.0★★★★☆ <span>(5,576ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-37%</span>
+        <span class="price">₹1,199</span>
+        <s class="mrp">₹1,916</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 17 -->
+    <div class="product-card">
+        <img src= "../images/grocery_17.jpg" alt="Grocery">
+      <p class="product-title">Fresh Tomato Hybrid, 1kg</p> 
+      <div class="rating">4.2★★★★☆ <span>(33,012ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-19%</span>
+        <span class="price">₹26</span>
+        <s class="mrp">₹32</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 18 -->
+    <div class="product-card">
+        <img src= "../images/grocery_18.jpg" alt="Grocery">
+      <p class="product-title">Fresh Potato, 1kg</p> 
+      <div class="rating">4.2★★★★☆ <span>(33,012ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-5%</span>
+        <span class="price">₹39</span>
+        <s class="mrp">₹41</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+     <!-- Product Card 19 -->
+     <div class="product-card">
+        <img src= "../images/grocery_19.jpg" alt="Grocery">
+      <p class="product-title">Fresh Onion, 1kg</p> 
+      <div class="rating">4.2★★★★☆ <span>(56,416ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-35%</span>
+        <span class="price">₹26</span>
+        <s class="mrp">₹40</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 20 -->
+    <div class="product-card">
+        <img src= "../images/grocery_20.jpg" alt="Grocery">
+      <p class="product-title">Fresh Carrot - Ooty, 500g</p> 
+      <div class="rating">4.1★★★★☆ <span>(14,385ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-71%</span>
+        <span class="price">₹15</span>
+        <s class="mrp">₹52</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+     </section>
+
+</body>
+</html>

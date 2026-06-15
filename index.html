@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Amazon clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+           <div class="nav-logo border">
+              <div class="logo"></div>
+           </div>
+
+            <div class="nav-address border">
+                <p class="add-first"> Deliver to </p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second"> India </p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select>
+                    <option> All </option>
+                </select class="search-select">
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <a href="login.html" class="login">
+            <div class="nav-singing border">
+               
+                <p> <span> Hello, sign in </span></p>
+                <p class="nav-second"> Account & Lists </p>
+            </div>
+        </a>
+
+            <div class="nav-return border">
+                <p> <span> Returns </span></p>
+                <p class="nav-second"> & Orders </p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all" id="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p> Today's Deals </p>
+                <p> Customer Service </p>
+                <p> Registry </p>
+                <p> Gift Cards </p>
+                <p> Sell </p>
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+
+    <!-- Inside <body>, after header -->
+    <!-- NEW: Sidebar Overlay and Sidebar Menu -->
+    <div class="sidebar-overlay"></div>
+    <aside class="sidebar" id="sidebar">
+         <div class="menu-header">
+            <div class="profile-img">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="menu-mgs">Hello, sign in</div>
+            <div class="close-menu-btn">
+                <i class="fa-solid fa-xmark" id="sidebar-overlay"></i>
+            </div>
+        </div>
+        <div class="category">
+            <h3>Shop by Category</h3>
+            <ol>
+                <li><a href="products/mobiles.html" class="Category-name">Mobiles</a></li>
+                <li><a href="products/Electronics.html" class="Category-name"> Electronics </a></li>
+                <li><a href="products/tv.html" class="Category-name"> Tv, Audio & Cameras </a></li>
+                <li><a href="products/mfashion.html" class="Category-name"> Men's Fashion </a></li>
+                <li><a href="products/wfashion.html" class="Category-name"> Women's Fashion </a></li>
+                <li><a href="products/computer.html" class="Category-name">  Computer & Laptop </a></li>
+                <li><a href="products/grocery.html" class="Category-name"> Grocery </a></li>
+                <li><a href="products/shoes.html" class="Category-name"> Shoes </a></li>
+                <li><a href="products/baggs.html" class="Category-name"> Bag & Luggage </a></li>
+                <li><a href="products/watches.html" class="Category-name"> Watches </a></li>
+                
+
+                </ol>
+        </div>
+        <div>
+            <h3> Help & settings</h3>  
+            <ol>
+            <li><a href="#" class="help-name"> Your Account</a></li>
+            <li><a href="#" class="help-name"> Customer Service </a></li>
+            <li><a href="#" class="help-name"> sign in </a></li>
+        </ol>
+        </div>
+
+    </aside>
+
+
+    <section>
+        <div class="hero">
+            <div class="slider">
+                <div class="slide active slide1"></div>
+                <div class="slide slide2"></div>
+                <div class="slide slide3"></div>
+                <div class="slide slide4"></div>
+                <div class="slide slide5"></div>
+                <div class="slide slide6"></div>
+                <div class="slide slide7"></div>
+                <div class="slide slide8"></div>
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+
+        <div class="shopping-grid">
+            <div class="grid-box">
+                <h3>Clothes</h3>
+                <div class="grid-img" style="background-image: url('images/box1_img.jpeg');"></div>
+                <a href="#" class="li-name">See more</a>
+            </div>
+            <div class="grid-box">
+                <h3>Health & personal care </h3>
+                <div class="grid-img" style="background-image: url('images/box2_img.jpeg');"></div>
+                <a href="#" class="li-name">See more</a>
+            </div>
+            <div class="grid-box">
+                <h3> Furniture </h3>
+                <div class="grid-img" style="background-image: url('images/box3_img.jpeg');"></div>
+                <a href="#" class="li-name">See more</a>
+            </div>
+            <div class="grid-box">
+                <h3>Continue shopping deals</h3>
+                <div class="grid-img" style="background-image: url('images/box4_img.jpeg');"></div>
+                <a href="#" class="li-name">See all deals </a>
+            </div>
+            <div class="grid-box">
+                <h3> Beauty picks </h3>
+                <div class="grid-img" style="background-image: url('images/box5_img.jpeg');"></div>
+                <a href="#" class="li-name">See more</a>
+            </div>
+            <div class="grid-box">
+                <h3> Starting ₹799 | Boat airdopes </h3>
+                <div class="grid-img" style="background-image: url('images/box6_img.jpg');"></div>
+                <a href="#" class="li-name">See more</a>
+            </div>
+            <div class="grid-box">
+                <h3>New arrival in toys</h3>
+                <div class="grid-img" style="background-image: url('images/box7_img.jpeg');"></div>
+                <a href="#" class="li-name">See more</a>
+            </div>
+            <div class="grid-box">
+                <h3>Discover fashion trends</h3>
+                <div class="grid-img" style="background-image: url('images/box8_img.jpeg');"></div>
+                <a href="#" class="li-name">See more</a>
+            </div>
+            <div class="grid-box">
+                <h3> Electronics</h3>
+                <div class="grid-img" style="background-image: url('images/box9_img.jpg');"></div>
+                <a href="#" class="li-name">See more</a>
+            </div>
+            <div class="grid-box">
+                <h3>Notebooks</h3>
+                <div class="grid-img" style="background-image: url('images/box10_img.jpg');"></div>
+                <a href="#" class="li-name">See more</a>
+            </div>
+            <div class="grid-box">
+                <h3> Up to 30% off | Shoes for mens </h3>
+                <div class="grid-img" style="background-image: url('images/box11_img.jpg');"></div>
+                <a href="#" class="li-name">See all offers</a>
+            </div>
+            <div class="grid-box">
+                <h3> Starting ₹349 | Watch's for women </h3>
+                <div class="grid-img" style="background-image: url('images/box12_img.jpg');"></div>
+                <a href="#" class="li-name">See more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amazon Clone Footer -->
+    <footer>
+        <!-- Back to Top Button -->
+        <div class="back-to-top"><a href="#">Back to Top</a></div>
+
+        <!-- Footer Main Sections -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Get to Know Us</h3>
+                <a href="https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer" class="footer-name">About Us</a>
+                <a href="https://amazon.jobs/en/" class="footer-name">Careers</a>
+                <a href="#" class="footer-name">Press Releases</a>
+                <a href="#" class="footer-name">Amazon Science</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect with Us</h3>
+                <a href="#" class="li-name">Facebook</a>
+                <a href="#" class="li-name">Twitter</a>
+                <a href="#" class="li-name">Instagram</a>
+            </div>
+            <div class="footer-section">
+                <h3>Make Money with Us</h3>
+                <a href="#" class="li-name">Sell on Amazon</a>
+                <a href="#" class="li-name">Sell under Amazon Accelerator</a>
+                <a href="#" class="li-name">Amazon Global Selling</a>
+                <a href="#" class="li-name">Advertise Your Products</a>
+            </div>
+            <div class="footer-section">
+                <h3>Let Us Help You</h3>
+                <a href="#" class="li-name">COVID-19 and Amazon</a>
+                <a href="#" class="li-name">Your Account</a>
+                <a href="#" class="li-name">Returns Centre</a>
+                <a href="#" class="li-name">Help</a>
+            </div>
+        </div>
+
+        <!-- Footer Middle Section (Logo, Language, Country) -->
+        <div class="footer-middle">
+            <div class="footer-logo"></div>
+            <div class="footer-language">
+                <select>
+                    <option>English</option>
+                    <option>हिन्दी (Hindi)</option>
+                    <option>मराठी (Marathi)</option>
+                    <option>ಕನ್ನಡ (Kannada)</option>
+                    <option>தமிழ் (Tamil)</option>
+                    <option>తెలుగు (Telugu)</option>
+                    <option>اردو (Urdu)</option>
+                    <option>ਪੰਜਾਬੀ (Punjabi)</option>
+                    <option>বাংলা (Bengali)</option>
+                    <option>ગુજરાતી (Gujarati)</option>
+                </select>
+            </div>
+            <div class="footer-country">
+                <div class="india-flag"></div>
+                <span>India</span>
+            </div>
+        </div>
+
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <a href="#" class="footer-name">Conditions of Use & Sale</a>
+                <a href="#" class="footer-name">Privacy Notice</a>
+                <a href="#" class="footer-name">Interest-Based Ads</a>
+            </div>
+            <div class="footer-legal">© 2025 Amazon Clone. All rights reserved.</div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

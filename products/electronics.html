@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Electronics </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href= "product.css">
+    <script src="../script.js"></script>
+    <script src="cart.js"></script>
+
+</head>
+
+<body>
+   <!--electronics navbar-->
+  <header>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
+
+        <div class="nav-address border">
+            <p class="add-first"> Deliver to </p>
+            <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="add-second"> India </p>
+            </div>
+        </div>
+
+        <div class="nav-search">
+            <select>
+                <option> Electronics </option>
+            </select class="search-select">
+            <input placeholder="Search Amazon" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="nav-singing border">
+            <p> <span> Hello, sign in </span></p>
+            <p class="nav-second"> Account & Lists </p>
+        </div>
+        <div class="nav-return border">
+            <p> <span> Returns </span></p>
+            <p class="nav-second"> & Orders </p>
+        </div>
+
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-all" id="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-ops">
+            <p> Today's Deals </p>
+            <p> Customer Service </p>
+            <p> Registry </p>
+            <p> Gift Cards </p>
+            <p> Sell </p>
+        </div>
+        <div class="panel-deals">
+            Shop deals in Electronics
+        </div>
+    </div>
+</header>
+
+<!-- Inside <body>, after header -->
+    <!-- NEW: Sidebar Overlay and Sidebar Menu -->
+    <div class="sidebar-overlay"></div>
+    <aside class="sidebar" id="sidebar">
+        <div class="menu-header">
+            <div class="profile-img">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="menu-mgs">Hello, sign in</div>
+            <div class="close-menu-btn">
+                <i class="fa-solid fa-xmark" id="sidebar-overlay"></i>
+            </div>
+        </div>
+        <div class="category">
+            <h3>Shop by Category</h3>
+            <ol>
+                <li><a href="mobiles.html" class="Category-name">Mobiles</a></li>
+                <li><a href="Electronics.html" class="Category-name"> Electronics </a></li>
+                <li><a href="tv.html" class="Category-name"> Tv, Audio & Cameras </a></li>
+                <li><a href="mfashion.html" class="Category-name"> Men's Fashion </a></li>
+                <li><a href="wfashion.html" class="Category-name"> Women's Fashion </a></li>
+                <li><a href="computer.html" class="Category-name">  Computer & Laptop </a></li>
+                <li><a href="grocery.html" class="Category-name"> Grocery </a></li>
+                <li><a href="shoes.html" class="Category-name"> Shoes </a></li>
+                <li><a href="baggs.html" class="Category-name"> Bag & Luggage </a></li>
+                <li><a href="watches.html" class="Category-name"> Watches </a></li>
+               </ol>
+        </div>
+        <div>
+            <h3> Help & settings</h3>  
+            <ol>
+            <li><a href="#" class="help-name"> Your Account</a></li>
+            <li><a href="#" class="help-name"> Customer Service </a></li>
+            <li><a href="#" class="help-name"> sign in </a></li>
+        </ol>
+        </div>
+        </aside>
+
+        <!--electronics product-->
+         <!--air conditioners product-->
+         <h2 class="section-heading">
+            Stay Cool & Comfortable – Top Air Conditioners for Every Home 🌬️</h2>
+    <section class="product-container">
+    <!-- Product Card 1 -->
+    <div class="product-card">
+        <img src= "../images/air_1.jpg" alt="panasonic air conditioner">
+      <p class="product-title">Panasonic 1.5 Ton 5 Star Wi-Fi Inverter Smart Split AC (India's 1st Matter Enabled RAC, Copper Condenser, 7in1 Convertible, True AI, 4 Way Swing, PM 0.1 Filter, CS/CU-NU18ZKY5W, White)</p>
+      <div class="rating">4.0★★★★☆ <span>(4,061ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-31%</span>
+        <span class="price">₹43,990</span>
+        <s class="mrp">₹63,400</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart" >Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 2 -->
+    <div class="product-card">
+        <img src= "../images/air_2.jpg" alt="dakin air conditioner">
+      <p class="product-title">Daikin 1.5 Ton 3 Star Inverter Split AC (Copper, PM 2.5 Filter, Triple Display, Dew Clean Technology, Coanda Airflow, 2024 Model, MTKL50U, White)</p>
+      <div class="rating">3.9★★★★☆ <span>(4,219ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-36%</span>
+        <span class="price">₹37,490</span>
+        <s class="mrp">₹58,400</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 3 -->
+    <div class="product-card">
+        <img src= "../images/air_3.jpg" alt="volts air conditioner">
+      <p class="product-title">Voltas 1.5 ton 3 Star, Inverter Split AC (Copper, 4-in-1 Adjustable Mode, Anti-dust Filter, 183V Vectra CAW, White)</p>
+      <div class="rating">3.8★★★★☆ <span>(3,354ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-50%</span>
+        <span class="price">₹33,990</span>
+        <s class="mrp">₹67,990</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 4 -->
+    <div class="product-card">
+        <img src= "../images/air_4.jpg" alt="godrej air conditioner">
+      <p class="product-title">Godrej 1 Ton 3 Star, 5 Years Comprehensive Warranty, 5-In-1 Convertible Cooling, Inverter Split AC (Copper, 2025 Model, Heavy duty cooling at 52 °C, AC1T EI 12PINV3R32 WYQ 3S, White)</p>
+      <div class="rating">3.8★★★★☆ <span>(985ratings)</span></div>
+      <div class="price-section">
+        <span class="discount">-30%</span>
+        <span class="price">₹29,490</span>
+        <s class="mrp">₹41,900</s>
+      </div>
+      <div class="prime-badge">✔ prime</div>
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+  </section>
+
+  <!--refrigerators product-->
+  <h2 class="section-heading">Top Refrigerators for Your Home ❄️🧊</h2>
+<section class="product-container">
+<!-- Product Card 1 -->
+<div class="product-card">
+<img src= "../images/refrigrator_1.jpg" alt="refrigrators">
+<p class="product-title">Whirlpool 270 L (Gross Capacity 300L) Frost Free Triple-Door Refrigerator FP 313D PROTTON ROY ALPHA STEEL (Z)</p>
+<div class="rating">3.9★★★★☆ <span>(10,619ratings)</span></div>
+<div class="price-section">
+<span class="discount">-28%</span>
+<span class="price">₹28,490</span>
+<s class="mrp">₹39,750</s>
+</div>
+<div class="prime-badge">✔ prime</div>
+<button class="add-to-cart">Add to Cart</button>
+<button class="buy-now">Buy Now</button>
+</div>
+
+<!-- Product Card 2 -->
+<div class="product-card">
+    <img src= "../images/refrigrator_2.jpg" alt="refrigrators">
+    <p class="product-title">Samsung 183 L, 4 Star, Digital Inverter, Direct-Cool Single Door Refrigerator (RR20C1824CR/HL, Red, Camellia Purple, Base Stand Drawer)</p>
+    <div class="rating">4.0★★★★☆ <span>(5,797ratings)</span></div>
+    <div class="price-section">
+    <span class="discount">-29%</span>
+    <span class="price">₹16,390</span>
+    <s class="mrp">₹22,999</s>
+    </div>
+    <div class="prime-badge">✔ prime</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 3 -->
+ <div class="product-card">
+    <img src= "../images/refrigrator_3.jpg" alt="refrigrators">
+    <p class="product-title">LG 185 L 5 Star Inverter Direct-Cool Single Door Refrigerator (GL-D201ABEU, Blue Euphoria, Base stand with drawer)</p>
+    <div class="rating">4.2★★★★☆ <span>(1,937ratings)</span></div>
+    <div class="price-section">
+    <span class="discount">-21%</span>
+    <span class="price">₹17,490</span>
+    <s class="mrp">₹22,199</s>
+    </div>
+    <div class="prime-badge">✔ prime</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <button class="buy-now">Buy Now</button>
+    </div>
+
+    
+    <!-- Product Card 4 -->
+ <div class="product-card">
+    <img src= "../images/refrigrator_4.jpg" alt="refrigrators">
+    <p class="product-title">Samsung 256 L, 3 Star, Convertible, Digital Inverter with Display Frost Free Double Door Refrigerator (RT30C3733BX/HL, Luxe Black)</p>
+    <div class="rating">4.2★★★★☆ <span>(2,464ratings)</span></div>
+    <div class="price-section">
+    <span class="discount">-33%</span>
+    <span class="price">₹29,990</span>
+    <s class="mrp">₹44,990</s>
+    </div>
+    <div class="prime-badge">✔ prime</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <button class="buy-now">Buy Now</button>
+    </div>
+    </section>
+
+
+    <!--Washing Machines product-->
+    <h2 class="section-heading">🧼🧺 Sparkling Wash Every Time – Explore Washing Machines 🌀</h2>
+  <section class="product-container">
+  <!-- Product Card 1 -->
+  <div class="product-card">
+  <img src= "../images/washing_1.jpg" alt="washing machines">
+  <p class="product-title">Bosch 8 kg 5 Star Fully-Automatic Front Loading Washing Machine (WAJ2826BIN, Shiny Silver, AI active water plus, In-Built Heater)</p>
+  <div class="rating">4.1★★★★☆ <span>(3,448ratings)</span></div>
+  <div class="price-section">
+  <span class="discount">-37%</span>
+  <span class="price">₹35,490</span>
+  <s class="mrp">₹56,490</s>
+  </div>
+  <div class="prime-badge">✔ prime</div>
+  <button class="add-to-cart">Add to Cart</button>
+  <button class="buy-now">Buy Now</button>
+  </div>
+
+  <!-- Product Card 2 -->
+  <div class="product-card">
+    <img src= "../images/washing_2.jpg" alt="washing machines">
+    <p class="product-title">Godrej 6 Kg Eco-Wash With Steam Wash Fully-Automatic Front Load Washing Machine (WFEON ARG 6010 5.0, Silver Stream)</p>
+    <div class="rating">3.9★★★★☆ <span>(121ratings)</span></div>
+    <div class="price-section">
+    <span class="discount">-41%</span>
+    <span class="price">₹22,790</span>
+    <s class="mrp">₹38,500</s>
+    </div>
+    <div class="prime-badge">✔ prime</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 3 -->
+  <div class="product-card">
+    <img src= "../images/washing_3.jpg" alt="washing machines">
+    <p class="product-title">Samsung 8 kg, 5 star, Eco Bubble Tech, Digital Inverter Motor, Soft Closing Door, Fully-Automatic Top Load Washing Machine (WA80BG4441BGTL, Light Gray)</p>
+    <div class="rating">4.1★★★★☆ <span>(26,403ratings)</span></div>
+    <div class="price-section">
+    <span class="discount">-26%</span>
+    <span class="price">₹19,990</span>
+    <s class="mrp">₹27,000</s>
+    </div>
+    <div class="prime-badge">✔ prime</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 3 -->
+  <div class="product-card">
+    <img src= "../images/washing_4.jpg" alt="washing machines">
+    <p class="product-title">Panasonic 7 kg 5 Star Inverter Fully Automatic Front Loading Washing Machine with Built-In Heater (NA-147MH2L01, Dark Silver, 2024 Model)</p>
+    <div class="rating">4.2★★★★☆ <span>(41ratings)</span></div>
+    <div class="price-section">
+    <span class="discount">-28%</span>
+    <span class="price">₹27,490</span>
+    <s class="mrp">₹38,000</s>
+    </div>
+    <div class="prime-badge">✔ prime</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <button class="buy-now">Buy Now</button>
+    </div>
+  </section>
+
+
+  <!--Other electronics product-->
+  <h2 class="section-heading">🧊💨 Must-Have Other Electronics: Fans, Coolers & More 🔄🌡️</h2>
+  <section class="product-container">
+  <!-- Product Card 1 -->
+  <div class="product-card">
+  <img src= "../images/otherelectronic_1.jpg" alt="other electronics">
+  <p class="product-title">atomberg Renesa Enzel 1200mm BLDC Ceiling Fan with Remote Control | BEE 5 star Rated Energy Efficient Ceiling Fan | High Air Delivery with LED Indicators| 3 Year Warranty (Gloss White)</p>
+  <div class="rating">4.2★★★★☆ <span>(45,967ratings)</span></div>
+  <div class="price-section">
+  <span class="discount">-33%</span>
+  <span class="price">₹3,399</span>
+  <s class="mrp">₹5,110</s>
+  </div>
+  <div class="prime-badge">✔ prime</div>
+  <button class="add-to-cart">Add to Cart</button>
+  <button class="buy-now">Buy Now</button>
+  </div>
+
+  <!-- Product Card 2 -->
+  <div class="product-card">
+    <img src= "../images/otherelectronic_2.jpg" alt="other electronics">
+    <p class="product-title">KENT Supreme Copper RO Water Purifier | RO + UV + UF + Copper +TDS Control + UV LED Tank | .0001 Micron RO Membrane | Auto Flush feature |20LPH | Ideal for Borewell/Tanker/Municipal Water | Black</p>
+    <div class="rating">4.1★★★★☆ <span>(45,967ratings)</span></div>
+    <div class="price-section">
+    <span class="discount">-40%</span>
+    <span class="price">₹14,999</span>
+    <s class="mrp">₹25,000</s>
+    </div>
+    <div class="prime-badge">✔ prime</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <button class="buy-now">Buy Now</button>
+    </div>
+
+    <!-- Product Card 3-->
+  <div class="product-card">
+    <img src= "../images/otherelectronic_3.jpg" alt="other electronics">
+    <p class="product-title">Butterfly Jet Elite 750 Watts Mixer Grinder with 4 Jars | 3 Stainless Steel Multipurpose Jars & 1 Juicer Jar | ABS Body | Sturdy Polycarbonate Juicer Jar | 2 Years Manufacturer's Warranty | Grey</p>
+    <div class="rating">3.9★★★★☆ <span>(33,898ratings)</span></div>
+    <div class="price-section">
+    <span class="discount">-43%</span>
+    <span class="price">₹3,299</span>
+    <s class="mrp">₹5,795</s>
+    </div>
+    <div class="prime-badge">✔ prime</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <button class="buy-now">Buy Now</button>
+    </div>
+
+     <!-- Product Card 4-->
+  <div class="product-card">
+    <img src= "../images/otherelectronic_4.jpg" alt="other electronics">
+    <p class="product-title">Bajaj DMH90 Neo 90L Desert Air Cooler For Home | For Larger Room | Big Ice Chamber | High-Speed | Invertor Compatible | 90Ft Air Throw | 3 Yrs Warranty (1 Yr Standard + 2 Yrs Extended Warranty)【White】</p>
+    <div class="rating">3.9★★★★☆ <span>(2,623ratings)</span></div>
+    <div class="price-section">
+    <span class="discount">-8%</span>
+    <span class="price">₹11,999</span>
+    <s class="mrp">₹12,999</s>
+    </div>
+    <div class="prime-badge">✔ prime</div>
+    <button class="add-to-cart">Add to Cart</button>
+    <button class="buy-now">Buy Now</button>
+    </div>
+  </section>
+  
+
+
+
+
+
+        
+</body>
+
+</html>
