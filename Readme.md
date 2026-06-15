@@ -27,4 +27,4 @@ Order summary displaying selected products and total cost.
 Using CSS Flexbox & Grid for layout. 
 Media queries to make the website mobile-friendly.
 7. Footer Section
-Includes useful navigation links, customer support links, company information, and additional resources similar to the Amazon website.
+Includes useful navigation links, customer support links, company information, and additional resources similar to the Amazon website
